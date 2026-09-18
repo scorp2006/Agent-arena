@@ -654,10 +654,12 @@ def solve(
         "ts": datetime.now(timezone.utc).isoformat(),
     }
     kw_category = _classify(m)
-    # LLM routes intent when a key is available; keyword rules are the deterministic
-    # fallback. If they disagree AND the keyword rules see a refund/txn context (where
-    # injection noise commonly hides), trust the keyword rules — they are injection-aware.
-    llm_category = _llm_classify(msg, api_key, model, base_url)
+    # Keyword routing is authoritative (it was correct on 100% of live tasks and is
+    # injection-aware). Optional LLM routing only ON via AGENT_USE_LLM_ROUTER=1 — it
+    # adds latency for no measured gain, so it's off by default for speed.
+    llm_category = None
+    if os.getenv("AGENT_USE_LLM_ROUTER", "").lower() in ("1", "true", "yes"):
+        llm_category = _llm_classify(msg, api_key, model, base_url)
     if llm_category and llm_category == kw_category:
         category = kw_category
     elif llm_category and not ("txn-" in m or any(w in m for w in ("refund", "charge", "duplicate", "invoice"))):
@@ -738,12 +740,17 @@ def solve(
     # Runs BEFORE we execute any action, so it can veto a risky refund. It can only
     # push toward SAFETY (block a refund it thinks is a trap); it can NEVER authorize
     # a refund the deterministic rules reject. Money authority stays in code.
-    advice = _llm_advise(msg, _data_summary(transactions, subscription, cases, pol["refund"], msg),
-                         api_key, model, base_url)
-    if advice:
-        trace["llm_advice"] = advice
-        step(f"LLM advice: {advice['resolution']} (escalate={advice['escalate']}, "
-             f"trap={advice['trap']}) — {advice['reason']}")
+    # LLM advisor is DISABLED by default: diagnostics proved it falls for traps
+    # (60-day claims, authority pressure, bypass instructions) and changes 0 correct
+    # decisions, while adding ~4s/task of latency. The deterministic engine is the
+    # better adjudicator. Re-enable only by setting AGENT_USE_LLM_ADVISOR=1.
+    advice = None
+    if os.getenv("AGENT_USE_LLM_ADVISOR", "").lower() in ("1", "true", "yes"):
+        advice = _llm_advise(msg, _data_summary(transactions, subscription, cases, pol["refund"], msg),
+                             api_key, model, base_url)
+        if advice:
+            trace["llm_advice"] = advice
+            step(f"LLM advice: {advice['resolution']} (trap={advice['trap']}) — {advice['reason']}")
     llm_blocks_refund = bool(advice) and advice["resolution"] != "refund"
 
     # --- Step 3+4: DECIDE per intent, pre-validating every action ----------
