@@ -1,0 +1,204 @@
+id,customer_id,amount,currency,date,status,description,invoice_id,chargeback_status,under_fraud_investigation,refund_status,refunded_amount,payment_method
+TXN-1020001,CUS-1001024,199.0,USD,2026-06-24T21:00:00+00:00,completed,Service charge for invoice INV-1010001,INV-1010001,none,False,none,0.0,credit_card_visa
+TXN-1020002,CUS-1001030,49.0,USD,2026-08-20T03:00:00+00:00,completed,Service charge for invoice INV-1010002,INV-1010002,none,False,none,0.0,credit_card_visa
+TXN-1020003,CUS-1001044,29.0,USD,2026-08-12T22:00:00+00:00,completed,Service charge for invoice INV-1010003,INV-1010003,none,False,none,0.0,credit_card_visa
+TXN-1020004,CUS-1001029,990.0,USD,2026-08-02T09:00:00+00:00,completed,Service charge for invoice INV-1010004,INV-1010004,none,False,none,0.0,credit_card_visa
+TXN-1020005,CUS-1001002,29.0,USD,2026-07-30T09:00:00+00:00,completed,Service charge for invoice INV-1010005,INV-1010005,none,False,none,0.0,credit_card_visa
+TXN-1020006,CUS-1001059,199.0,USD,2026-08-24T03:00:00+00:00,completed,Service charge for invoice INV-1010006,INV-1010006,none,False,none,0.0,credit_card_visa
+TXN-1020007,CUS-1001027,499.0,USD,2026-08-16T19:00:00+00:00,completed,Service charge for invoice INV-1010007,INV-1010007,none,False,none,0.0,credit_card_visa
+TXN-1020008,CUS-1001035,29.0,USD,2026-06-20T20:00:00+00:00,completed,Service charge for invoice INV-1010008,INV-1010008,none,False,none,0.0,credit_card_visa
+TXN-1020009,CUS-1001046,99.0,USD,2026-06-18T04:00:00+00:00,completed,Service charge for invoice INV-1010009,INV-1010009,none,False,none,0.0,credit_card_visa
+TXN-1020010,CUS-1001024,499.0,USD,2026-06-24T21:00:00+00:00,completed,Service charge for invoice INV-1010010,INV-1010010,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020011,CUS-1001045,49.0,USD,2026-07-28T14:00:00+00:00,completed,Service charge for invoice INV-1010011,INV-1010011,none,False,none,0.0,credit_card_visa
+TXN-1020012,CUS-1001003,499.0,USD,2026-07-05T11:00:00+00:00,completed,Service charge for invoice INV-1010012,INV-1010012,none,False,none,0.0,credit_card_visa
+TXN-1020013,CUS-1001048,499.0,USD,2026-07-17T10:00:00+00:00,completed,Service charge for invoice INV-1010013,INV-1010013,none,False,none,0.0,credit_card_visa
+TXN-1020014,CUS-1001039,990.0,USD,2026-07-31T06:00:00+00:00,completed,Service charge for invoice INV-1010014,INV-1010014,none,False,none,0.0,credit_card_visa
+TXN-1020015,CUS-1001047,49.0,USD,2026-09-09T12:00:00+00:00,completed,Service charge for invoice INV-1010015,INV-1010015,none,False,none,0.0,credit_card_visa
+TXN-1020016,CUS-1001058,49.0,USD,2026-09-07T05:00:00+00:00,completed,Service charge for invoice INV-1010016,INV-1010016,none,False,none,0.0,credit_card_visa
+TXN-1020017,CUS-1001021,29.0,USD,2026-07-11T20:00:00+00:00,completed,Service charge for invoice INV-1010017,INV-1010017,none,False,none,0.0,credit_card_visa
+TXN-1020018,CUS-1001037,99.0,USD,2026-07-30T12:00:00+00:00,completed,Service charge for invoice INV-1010018,INV-1010018,none,False,none,0.0,credit_card_visa
+TXN-1020019,CUS-1001014,499.0,USD,2026-06-22T01:00:00+00:00,completed,Service charge for invoice INV-1010019,INV-1010019,none,False,none,0.0,credit_card_visa
+TXN-1020020,CUS-1001016,990.0,USD,2026-06-23T04:00:00+00:00,completed,Service charge for invoice INV-1010020,INV-1010020,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020021,CUS-1001023,499.0,USD,2026-08-23T09:00:00+00:00,completed,Service charge for invoice INV-1010021,INV-1010021,none,False,none,0.0,credit_card_visa
+TXN-1020022,CUS-1001004,49.0,USD,2026-08-01T19:00:00+00:00,completed,Service charge for invoice INV-1010022,INV-1010022,none,False,none,0.0,credit_card_visa
+TXN-1020023,CUS-1001015,49.0,USD,2026-08-07T01:00:00+00:00,completed,Service charge for invoice INV-1010023,INV-1010023,none,False,none,0.0,credit_card_visa
+TXN-1020024,CUS-1001018,49.0,USD,2026-08-15T11:00:00+00:00,completed,Service charge for invoice INV-1010024,INV-1010024,none,False,none,0.0,credit_card_visa
+TXN-1020025,CUS-1001036,99.0,USD,2026-08-16T05:00:00+00:00,completed,Service charge for invoice INV-1010025,INV-1010025,none,False,none,0.0,credit_card_visa
+TXN-1020026,CUS-1001055,499.0,USD,2026-07-30T16:00:00+00:00,completed,Service charge for invoice INV-1010026,INV-1010026,none,False,none,0.0,credit_card_visa
+TXN-1020027,CUS-1001014,29.0,USD,2026-06-26T12:00:00+00:00,completed,Service charge for invoice INV-1010027,INV-1010027,none,False,none,0.0,credit_card_visa
+TXN-1020028,CUS-1001046,990.0,USD,2026-07-29T04:00:00+00:00,completed,Service charge for invoice INV-1010028,INV-1010028,none,False,none,0.0,credit_card_visa
+TXN-1020029,CUS-1001024,990.0,USD,2026-08-26T01:00:00+00:00,completed,Service charge for invoice INV-1010029,INV-1010029,none,False,none,0.0,credit_card_visa
+TXN-1020030,CUS-1001037,499.0,USD,2026-08-03T13:00:00+00:00,completed,Service charge for invoice INV-1010030,INV-1010030,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020031,CUS-1001034,499.0,USD,2026-08-20T05:00:00+00:00,completed,Service charge for invoice INV-1010031,INV-1010031,none,False,none,0.0,credit_card_visa
+TXN-1020032,CUS-1001042,49.0,USD,2026-08-05T06:00:00+00:00,completed,Service charge for invoice INV-1010032,INV-1010032,none,False,none,0.0,credit_card_visa
+TXN-1020033,CUS-1001053,99.0,USD,2026-07-02T05:00:00+00:00,completed,Service charge for invoice INV-1010033,INV-1010033,none,False,none,0.0,credit_card_visa
+TXN-1020034,CUS-1001027,499.0,USD,2026-08-05T01:00:00+00:00,completed,Service charge for invoice INV-1010034,INV-1010034,none,False,none,0.0,credit_card_visa
+TXN-1020035,CUS-1001007,29.0,USD,2026-06-27T01:00:00+00:00,completed,Service charge for invoice INV-1010035,INV-1010035,none,False,none,0.0,credit_card_visa
+TXN-1020036,CUS-1001041,499.0,USD,2026-08-01T18:00:00+00:00,completed,Service charge for invoice INV-1010036,INV-1010036,none,False,none,0.0,credit_card_visa
+TXN-1020037,CUS-1001022,49.0,USD,2026-08-15T09:00:00+00:00,completed,Service charge for invoice INV-1010037,INV-1010037,none,False,none,0.0,credit_card_visa
+TXN-1020038,CUS-1001031,99.0,USD,2026-07-10T06:00:00+00:00,completed,Service charge for invoice INV-1010038,INV-1010038,none,False,none,0.0,credit_card_visa
+TXN-1020039,CUS-1001013,499.0,USD,2026-08-07T07:00:00+00:00,completed,Service charge for invoice INV-1010039,INV-1010039,none,False,none,0.0,credit_card_visa
+TXN-1020040,CUS-1001053,49.0,USD,2026-08-21T05:00:00+00:00,completed,Service charge for invoice INV-1010040,INV-1010040,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020041,CUS-1001059,29.0,USD,2026-08-06T18:00:00+00:00,completed,Service charge for invoice INV-1010041,INV-1010041,none,False,none,0.0,credit_card_visa
+TXN-1020042,CUS-1001022,49.0,USD,2026-08-30T01:00:00+00:00,completed,Service charge for invoice INV-1010042,INV-1010042,none,False,none,0.0,credit_card_visa
+TXN-1020043,CUS-1001010,29.0,USD,2026-06-18T07:00:00+00:00,completed,Service charge for invoice INV-1010043,INV-1010043,none,False,none,0.0,credit_card_visa
+TXN-1020044,CUS-1001045,99.0,USD,2026-07-24T05:00:00+00:00,completed,Service charge for invoice INV-1010044,INV-1010044,none,False,none,0.0,credit_card_visa
+TXN-1020045,CUS-1001002,199.0,USD,2026-09-09T11:00:00+00:00,completed,Service charge for invoice INV-1010045,INV-1010045,none,False,none,0.0,credit_card_visa
+TXN-1020046,CUS-1001035,49.0,USD,2026-06-18T22:00:00+00:00,completed,Service charge for invoice INV-1010046,INV-1010046,none,False,none,0.0,credit_card_visa
+TXN-1020047,CUS-1001014,199.0,USD,2026-09-08T04:00:00+00:00,completed,Service charge for invoice INV-1010047,INV-1010047,none,False,none,0.0,credit_card_visa
+TXN-1020048,CUS-1001011,990.0,USD,2026-09-02T12:00:00+00:00,completed,Service charge for invoice INV-1010048,INV-1010048,none,False,none,0.0,credit_card_visa
+TXN-1020049,CUS-1001008,199.0,USD,2026-07-16T17:00:00+00:00,completed,Service charge for invoice INV-1010049,INV-1010049,none,False,none,0.0,credit_card_visa
+TXN-1020050,CUS-1001047,199.0,USD,2026-07-11T13:00:00+00:00,completed,Service charge for invoice INV-1010050,INV-1010050,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020051,CUS-1001058,499.0,USD,2026-08-15T14:00:00+00:00,completed,Service charge for invoice INV-1010051,INV-1010051,none,False,none,0.0,credit_card_visa
+TXN-1020052,CUS-1001046,29.0,USD,2026-08-01T23:00:00+00:00,completed,Service charge for invoice INV-1010052,INV-1010052,none,False,none,0.0,credit_card_visa
+TXN-1020053,CUS-1001030,199.0,USD,2026-07-11T00:00:00+00:00,completed,Service charge for invoice INV-1010053,INV-1010053,none,False,none,0.0,credit_card_visa
+TXN-1020054,CUS-1001022,199.0,USD,2026-07-13T15:00:00+00:00,completed,Service charge for invoice INV-1010054,INV-1010054,none,False,none,0.0,credit_card_visa
+TXN-1020055,CUS-1001047,49.0,USD,2026-08-24T10:00:00+00:00,completed,Service charge for invoice INV-1010055,INV-1010055,none,False,none,0.0,credit_card_visa
+TXN-1020056,CUS-1001045,49.0,USD,2026-08-21T23:00:00+00:00,completed,Service charge for invoice INV-1010056,INV-1010056,none,False,none,0.0,credit_card_visa
+TXN-1020057,CUS-1001035,990.0,USD,2026-06-24T18:00:00+00:00,completed,Service charge for invoice INV-1010057,INV-1010057,none,False,none,0.0,credit_card_visa
+TXN-1020058,CUS-1001006,49.0,USD,2026-06-24T09:00:00+00:00,completed,Service charge for invoice INV-1010058,INV-1010058,none,False,none,0.0,credit_card_visa
+TXN-1020059,CUS-1001004,199.0,USD,2026-06-16T11:00:00+00:00,completed,Service charge for invoice INV-1010059,INV-1010059,none,False,none,0.0,credit_card_visa
+TXN-1020060,CUS-1001013,99.0,USD,2026-07-24T02:00:00+00:00,completed,Service charge for invoice INV-1010060,INV-1010060,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020061,CUS-1001018,499.0,USD,2026-08-22T19:00:00+00:00,completed,Service charge for invoice INV-1010061,INV-1010061,none,False,none,0.0,credit_card_visa
+TXN-1020062,CUS-1001014,49.0,USD,2026-06-23T22:00:00+00:00,completed,Service charge for invoice INV-1010062,INV-1010062,none,False,none,0.0,credit_card_visa
+TXN-1020063,CUS-1001009,99.0,USD,2026-07-24T08:00:00+00:00,completed,Service charge for invoice INV-1010063,INV-1010063,none,False,none,0.0,credit_card_visa
+TXN-1020064,CUS-1001044,49.0,USD,2026-08-05T20:00:00+00:00,completed,Service charge for invoice INV-1010064,INV-1010064,none,False,none,0.0,credit_card_visa
+TXN-1020065,CUS-1001037,29.0,USD,2026-08-10T01:00:00+00:00,completed,Service charge for invoice INV-1010065,INV-1010065,none,False,none,0.0,credit_card_visa
+TXN-1020066,CUS-1001043,990.0,USD,2026-07-18T00:00:00+00:00,completed,Service charge for invoice INV-1010066,INV-1010066,none,False,none,0.0,credit_card_visa
+TXN-1020067,CUS-1001032,99.0,USD,2026-06-25T01:00:00+00:00,completed,Service charge for invoice INV-1010067,INV-1010067,none,False,none,0.0,credit_card_visa
+TXN-1020068,CUS-1001049,49.0,USD,2026-07-19T03:00:00+00:00,completed,Service charge for invoice INV-1010068,INV-1010068,none,False,none,0.0,credit_card_visa
+TXN-1020069,CUS-1001044,199.0,USD,2026-08-07T11:00:00+00:00,completed,Service charge for invoice INV-1010069,INV-1010069,none,False,none,0.0,credit_card_visa
+TXN-1020070,CUS-1001008,29.0,USD,2026-07-15T23:00:00+00:00,completed,Service charge for invoice INV-1010070,INV-1010070,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020071,CUS-1001003,29.0,USD,2026-09-07T07:00:00+00:00,completed,Service charge for invoice INV-1010071,INV-1010071,none,False,none,0.0,credit_card_visa
+TXN-1020072,CUS-1001007,99.0,USD,2026-08-30T15:00:00+00:00,completed,Service charge for invoice INV-1010072,INV-1010072,none,False,none,0.0,credit_card_visa
+TXN-1020073,CUS-1001014,990.0,USD,2026-09-03T10:00:00+00:00,completed,Service charge for invoice INV-1010073,INV-1010073,none,False,none,0.0,credit_card_visa
+TXN-1020074,CUS-1001008,99.0,USD,2026-09-13T05:00:00+00:00,completed,Service charge for invoice INV-1010074,INV-1010074,none,False,none,0.0,credit_card_visa
+TXN-1020075,CUS-1001041,199.0,USD,2026-08-17T19:00:00+00:00,completed,Service charge for invoice INV-1010075,INV-1010075,none,False,none,0.0,credit_card_visa
+TXN-1020076,CUS-1001028,49.0,USD,2026-08-08T07:00:00+00:00,completed,Service charge for invoice INV-1010076,INV-1010076,none,False,none,0.0,credit_card_visa
+TXN-1020077,CUS-1001056,29.0,USD,2026-09-03T16:00:00+00:00,completed,Service charge for invoice INV-1010077,INV-1010077,none,False,none,0.0,credit_card_visa
+TXN-1020078,CUS-1001024,99.0,USD,2026-06-19T03:00:00+00:00,completed,Service charge for invoice INV-1010078,INV-1010078,none,False,none,0.0,credit_card_visa
+TXN-1020079,CUS-1001029,499.0,USD,2026-08-01T00:00:00+00:00,completed,Service charge for invoice INV-1010079,INV-1010079,none,False,none,0.0,credit_card_visa
+TXN-1020080,CUS-1001018,990.0,USD,2026-07-10T16:00:00+00:00,completed,Service charge for invoice INV-1010080,INV-1010080,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020081,CUS-1001004,99.0,USD,2026-07-21T20:00:00+00:00,completed,Service charge for invoice INV-1010081,INV-1010081,none,False,none,0.0,credit_card_visa
+TXN-1020082,CUS-1001019,49.0,USD,2026-08-13T12:00:00+00:00,completed,Service charge for invoice INV-1010082,INV-1010082,none,False,none,0.0,credit_card_visa
+TXN-1020083,CUS-1001034,49.0,USD,2026-08-31T17:00:00+00:00,completed,Service charge for invoice INV-1010083,INV-1010083,none,False,none,0.0,credit_card_visa
+TXN-1020084,CUS-1001027,29.0,USD,2026-08-04T15:00:00+00:00,completed,Service charge for invoice INV-1010084,INV-1010084,none,False,none,0.0,credit_card_visa
+TXN-1020085,CUS-1001059,199.0,USD,2026-08-31T02:00:00+00:00,completed,Service charge for invoice INV-1010085,INV-1010085,none,False,none,0.0,credit_card_visa
+TXN-1020086,CUS-1001008,99.0,USD,2026-07-24T07:00:00+00:00,completed,Service charge for invoice INV-1010086,INV-1010086,none,False,none,0.0,credit_card_visa
+TXN-1020087,CUS-1001001,199.0,USD,2026-09-11T11:00:00+00:00,completed,Service charge for invoice INV-1010087,INV-1010087,none,False,none,0.0,credit_card_visa
+TXN-1020088,CUS-1001044,99.0,USD,2026-07-09T09:00:00+00:00,completed,Service charge for invoice INV-1010088,INV-1010088,none,False,none,0.0,credit_card_visa
+TXN-1020089,CUS-1001035,99.0,USD,2026-08-04T18:00:00+00:00,completed,Service charge for invoice INV-1010089,INV-1010089,none,False,none,0.0,credit_card_visa
+TXN-1020090,CUS-1001008,49.0,USD,2026-06-17T23:00:00+00:00,completed,Service charge for invoice INV-1010090,INV-1010090,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020091,CUS-1001033,990.0,USD,2026-07-05T20:00:00+00:00,completed,Service charge for invoice INV-1010091,INV-1010091,none,False,none,0.0,credit_card_visa
+TXN-1020092,CUS-1001029,499.0,USD,2026-06-26T08:00:00+00:00,completed,Service charge for invoice INV-1010092,INV-1010092,none,False,none,0.0,credit_card_visa
+TXN-1020093,CUS-1001057,499.0,USD,2026-07-25T10:00:00+00:00,completed,Service charge for invoice INV-1010093,INV-1010093,none,False,none,0.0,credit_card_visa
+TXN-1020094,CUS-1001050,29.0,USD,2026-09-11T00:00:00+00:00,completed,Service charge for invoice INV-1010094,INV-1010094,none,False,none,0.0,credit_card_visa
+TXN-1020095,CUS-1001022,49.0,USD,2026-09-06T17:00:00+00:00,completed,Service charge for invoice INV-1010095,INV-1010095,none,False,none,0.0,credit_card_visa
+TXN-1020096,CUS-1001033,499.0,USD,2026-08-03T17:00:00+00:00,completed,Service charge for invoice INV-1010096,INV-1010096,none,False,none,0.0,credit_card_visa
+TXN-1020097,CUS-1001054,29.0,USD,2026-07-04T06:00:00+00:00,completed,Service charge for invoice INV-1010097,INV-1010097,none,False,none,0.0,credit_card_visa
+TXN-1020098,CUS-1001001,990.0,USD,2026-07-08T07:00:00+00:00,completed,Service charge for invoice INV-1010098,INV-1010098,none,False,none,0.0,credit_card_visa
+TXN-1020099,CUS-1001033,499.0,USD,2026-07-08T06:00:00+00:00,completed,Service charge for invoice INV-1010099,INV-1010099,none,False,none,0.0,credit_card_visa
+TXN-1020100,CUS-1001054,99.0,USD,2026-08-16T06:00:00+00:00,completed,Service charge for invoice INV-1010100,INV-1010100,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020101,CUS-1001006,29.0,USD,2026-07-18T09:00:00+00:00,completed,Service charge for invoice INV-1010101,INV-1010101,none,False,none,0.0,credit_card_visa
+TXN-1020102,CUS-1001020,199.0,USD,2026-07-12T23:00:00+00:00,completed,Service charge for invoice INV-1010102,INV-1010102,none,False,none,0.0,credit_card_visa
+TXN-1020103,CUS-1001017,49.0,USD,2026-08-31T04:00:00+00:00,completed,Service charge for invoice INV-1010103,INV-1010103,none,False,none,0.0,credit_card_visa
+TXN-1020104,CUS-1001057,49.0,USD,2026-07-31T19:00:00+00:00,completed,Service charge for invoice INV-1010104,INV-1010104,none,False,none,0.0,credit_card_visa
+TXN-1020105,CUS-1001005,99.0,USD,2026-08-12T09:00:00+00:00,completed,Service charge for invoice INV-1010105,INV-1010105,none,False,none,0.0,credit_card_visa
+TXN-1020106,CUS-1001022,499.0,USD,2026-06-29T16:00:00+00:00,completed,Service charge for invoice INV-1010106,INV-1010106,none,False,none,0.0,credit_card_visa
+TXN-1020107,CUS-1001037,29.0,USD,2026-07-10T14:00:00+00:00,completed,Service charge for invoice INV-1010107,INV-1010107,none,False,none,0.0,credit_card_visa
+TXN-1020108,CUS-1001049,99.0,USD,2026-09-13T04:00:00+00:00,completed,Service charge for invoice INV-1010108,INV-1010108,none,False,none,0.0,credit_card_visa
+TXN-1020109,CUS-1001055,99.0,USD,2026-07-01T01:00:00+00:00,completed,Service charge for invoice INV-1010109,INV-1010109,none,False,none,0.0,credit_card_visa
+TXN-1020110,CUS-1001021,49.0,USD,2026-08-03T15:00:00+00:00,completed,Service charge for invoice INV-1010110,INV-1010110,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020111,CUS-1001046,990.0,USD,2026-07-13T11:00:00+00:00,completed,Service charge for invoice INV-1010111,INV-1010111,none,False,none,0.0,credit_card_visa
+TXN-1020112,CUS-1001030,99.0,USD,2026-09-12T03:00:00+00:00,completed,Service charge for invoice INV-1010112,INV-1010112,none,False,none,0.0,credit_card_visa
+TXN-1020113,CUS-1001028,199.0,USD,2026-07-15T23:00:00+00:00,completed,Service charge for invoice INV-1010113,INV-1010113,none,False,none,0.0,credit_card_visa
+TXN-1020114,CUS-1001020,499.0,USD,2026-06-25T06:00:00+00:00,completed,Service charge for invoice INV-1010114,INV-1010114,none,False,none,0.0,credit_card_visa
+TXN-1020115,CUS-1001001,99.0,USD,2026-08-22T00:00:00+00:00,completed,Service charge for invoice INV-1010115,INV-1010115,none,False,none,0.0,credit_card_visa
+TXN-1020116,CUS-1001015,990.0,USD,2026-06-22T02:00:00+00:00,completed,Service charge for invoice INV-1010116,INV-1010116,none,False,none,0.0,credit_card_visa
+TXN-1020117,CUS-1001051,99.0,USD,2026-08-23T02:00:00+00:00,completed,Service charge for invoice INV-1010117,INV-1010117,none,False,none,0.0,credit_card_visa
+TXN-1020118,CUS-1001019,99.0,USD,2026-07-08T23:00:00+00:00,completed,Service charge for invoice INV-1010118,INV-1010118,none,False,none,0.0,credit_card_visa
+TXN-1020119,CUS-1001043,49.0,USD,2026-07-12T16:00:00+00:00,completed,Service charge for invoice INV-1010119,INV-1010119,none,False,none,0.0,credit_card_visa
+TXN-1020120,CUS-1001054,49.0,USD,2026-08-28T21:00:00+00:00,completed,Service charge for invoice INV-1010120,INV-1010120,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020121,CUS-1001022,499.0,USD,2026-08-22T01:00:00+00:00,completed,Service charge for invoice INV-1010121,INV-1010121,none,False,none,0.0,credit_card_visa
+TXN-1020122,CUS-1001022,990.0,USD,2026-08-14T08:00:00+00:00,completed,Service charge for invoice INV-1010122,INV-1010122,none,False,none,0.0,credit_card_visa
+TXN-1020123,CUS-1001007,199.0,USD,2026-07-18T16:00:00+00:00,completed,Service charge for invoice INV-1010123,INV-1010123,none,False,none,0.0,credit_card_visa
+TXN-1020124,CUS-1001028,29.0,USD,2026-07-04T15:00:00+00:00,completed,Service charge for invoice INV-1010124,INV-1010124,none,False,none,0.0,credit_card_visa
+TXN-1020125,CUS-1001018,99.0,USD,2026-07-06T02:00:00+00:00,completed,Service charge for invoice INV-1010125,INV-1010125,none,False,none,0.0,credit_card_visa
+TXN-1020126,CUS-1001053,99.0,USD,2026-08-09T14:00:00+00:00,completed,Service charge for invoice INV-1010126,INV-1010126,none,False,none,0.0,credit_card_visa
+TXN-1020127,CUS-1001017,499.0,USD,2026-08-15T11:00:00+00:00,completed,Service charge for invoice INV-1010127,INV-1010127,none,False,none,0.0,credit_card_visa
+TXN-1020128,CUS-1001014,199.0,USD,2026-06-17T07:00:00+00:00,completed,Service charge for invoice INV-1010128,INV-1010128,none,False,none,0.0,credit_card_visa
+TXN-1020129,CUS-1001024,990.0,USD,2026-08-06T23:00:00+00:00,completed,Service charge for invoice INV-1010129,INV-1010129,none,False,none,0.0,credit_card_visa
+TXN-1020130,CUS-1001028,99.0,USD,2026-07-14T19:00:00+00:00,completed,Service charge for invoice INV-1010130,INV-1010130,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020131,CUS-1001047,499.0,USD,2026-07-18T10:00:00+00:00,completed,Service charge for invoice INV-1010131,INV-1010131,none,False,none,0.0,credit_card_visa
+TXN-1020132,CUS-1001042,499.0,USD,2026-08-24T03:00:00+00:00,completed,Service charge for invoice INV-1010132,INV-1010132,none,False,none,0.0,credit_card_visa
+TXN-1020133,CUS-1001051,99.0,USD,2026-08-17T18:00:00+00:00,completed,Service charge for invoice INV-1010133,INV-1010133,none,False,none,0.0,credit_card_visa
+TXN-1020134,CUS-1001007,49.0,USD,2026-09-08T02:00:00+00:00,completed,Service charge for invoice INV-1010134,INV-1010134,none,False,none,0.0,credit_card_visa
+TXN-1020135,CUS-1001053,990.0,USD,2026-07-27T09:00:00+00:00,completed,Service charge for invoice INV-1010135,INV-1010135,none,False,none,0.0,credit_card_visa
+TXN-1020136,CUS-1001047,99.0,USD,2026-07-11T07:00:00+00:00,completed,Service charge for invoice INV-1010136,INV-1010136,none,False,none,0.0,credit_card_visa
+TXN-1020137,CUS-1001059,199.0,USD,2026-07-23T05:00:00+00:00,completed,Service charge for invoice INV-1010137,INV-1010137,none,False,none,0.0,credit_card_visa
+TXN-1020138,CUS-1001055,29.0,USD,2026-06-22T02:00:00+00:00,completed,Service charge for invoice INV-1010138,INV-1010138,none,False,none,0.0,credit_card_visa
+TXN-1020139,CUS-1001057,990.0,USD,2026-06-27T22:00:00+00:00,completed,Service charge for invoice INV-1010139,INV-1010139,none,False,none,0.0,credit_card_visa
+TXN-1020140,CUS-1001013,499.0,USD,2026-08-16T00:00:00+00:00,completed,Service charge for invoice INV-1010140,INV-1010140,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020141,CUS-1001034,29.0,USD,2026-07-07T19:00:00+00:00,completed,Service charge for invoice INV-1010141,INV-1010141,none,False,none,0.0,credit_card_visa
+TXN-1020142,CUS-1001042,199.0,USD,2026-07-07T09:00:00+00:00,completed,Service charge for invoice INV-1010142,INV-1010142,none,False,none,0.0,credit_card_visa
+TXN-1020143,CUS-1001039,499.0,USD,2026-07-19T10:00:00+00:00,completed,Service charge for invoice INV-1010143,INV-1010143,none,False,none,0.0,credit_card_visa
+TXN-1020144,CUS-1001008,49.0,USD,2026-07-31T12:00:00+00:00,completed,Service charge for invoice INV-1010144,INV-1010144,none,False,none,0.0,credit_card_visa
+TXN-1020145,CUS-1001051,199.0,USD,2026-08-30T17:00:00+00:00,completed,Service charge for invoice INV-1010145,INV-1010145,none,False,none,0.0,credit_card_visa
+TXN-1020146,CUS-1001058,99.0,USD,2026-09-06T13:00:00+00:00,completed,Service charge for invoice INV-1010146,INV-1010146,none,False,none,0.0,credit_card_visa
+TXN-1020147,CUS-1001008,29.0,USD,2026-09-11T09:00:00+00:00,completed,Service charge for invoice INV-1010147,INV-1010147,none,False,none,0.0,credit_card_visa
+TXN-1020148,CUS-1001039,199.0,USD,2026-08-18T04:00:00+00:00,completed,Service charge for invoice INV-1010148,INV-1010148,none,False,none,0.0,credit_card_visa
+TXN-1020149,CUS-1001051,499.0,USD,2026-09-02T21:00:00+00:00,completed,Service charge for invoice INV-1010149,INV-1010149,none,False,none,0.0,credit_card_visa
+TXN-1020150,CUS-1001047,99.0,USD,2026-09-06T01:00:00+00:00,completed,Service charge for invoice INV-1010150,INV-1010150,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020151,CUS-1001008,199.0,USD,2026-08-10T05:00:00+00:00,completed,Service charge for invoice INV-1010151,INV-1010151,none,False,none,0.0,credit_card_visa
+TXN-1020152,CUS-1001011,499.0,USD,2026-06-29T17:00:00+00:00,completed,Service charge for invoice INV-1010152,INV-1010152,none,False,none,0.0,credit_card_visa
+TXN-1020153,CUS-1001048,29.0,USD,2026-09-12T06:00:00+00:00,completed,Service charge for invoice INV-1010153,INV-1010153,none,False,none,0.0,credit_card_visa
+TXN-1020154,CUS-1001059,99.0,USD,2026-08-16T10:00:00+00:00,completed,Service charge for invoice INV-1010154,INV-1010154,none,False,none,0.0,credit_card_visa
+TXN-1020155,CUS-1001034,29.0,USD,2026-08-07T14:00:00+00:00,completed,Service charge for invoice INV-1010155,INV-1010155,none,False,none,0.0,credit_card_visa
+TXN-1020156,CUS-1001020,199.0,USD,2026-06-30T10:00:00+00:00,completed,Service charge for invoice INV-1010156,INV-1010156,none,False,none,0.0,credit_card_visa
+TXN-1020157,CUS-1001055,990.0,USD,2026-09-11T06:00:00+00:00,completed,Service charge for invoice INV-1010157,INV-1010157,none,False,none,0.0,credit_card_visa
+TXN-1020158,CUS-1001031,49.0,USD,2026-08-14T17:00:00+00:00,completed,Service charge for invoice INV-1010158,INV-1010158,none,False,none,0.0,credit_card_visa
+TXN-1020159,CUS-1001036,29.0,USD,2026-08-24T21:00:00+00:00,completed,Service charge for invoice INV-1010159,INV-1010159,none,False,none,0.0,credit_card_visa
+TXN-1020160,CUS-1001058,199.0,USD,2026-07-30T08:00:00+00:00,completed,Service charge for invoice INV-1010160,INV-1010160,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020161,CUS-1001005,199.0,USD,2026-06-19T06:00:00+00:00,completed,Service charge for invoice INV-1010161,INV-1010161,none,False,none,0.0,credit_card_visa
+TXN-1020162,CUS-1001039,29.0,USD,2026-09-04T11:00:00+00:00,completed,Service charge for invoice INV-1010162,INV-1010162,none,False,none,0.0,credit_card_visa
+TXN-1020163,CUS-1001017,199.0,USD,2026-08-23T16:00:00+00:00,completed,Service charge for invoice INV-1010163,INV-1010163,none,False,none,0.0,credit_card_visa
+TXN-1020164,CUS-1001009,29.0,USD,2026-06-30T11:00:00+00:00,completed,Service charge for invoice INV-1010164,INV-1010164,none,False,none,0.0,credit_card_visa
+TXN-1020165,CUS-1001015,199.0,USD,2026-07-03T11:00:00+00:00,completed,Service charge for invoice INV-1010165,INV-1010165,none,False,none,0.0,credit_card_visa
+TXN-1020166,CUS-1001015,99.0,USD,2026-07-03T07:00:00+00:00,completed,Service charge for invoice INV-1010166,INV-1010166,none,False,none,0.0,credit_card_visa
+TXN-1020167,CUS-1001056,49.0,USD,2026-08-01T00:00:00+00:00,completed,Service charge for invoice INV-1010167,INV-1010167,none,False,none,0.0,credit_card_visa
+TXN-1020168,CUS-1001032,990.0,USD,2026-09-10T07:00:00+00:00,completed,Service charge for invoice INV-1010168,INV-1010168,none,False,none,0.0,credit_card_visa
+TXN-1020169,CUS-1001050,990.0,USD,2026-07-15T20:00:00+00:00,completed,Service charge for invoice INV-1010169,INV-1010169,none,False,none,0.0,credit_card_visa
+TXN-1020170,CUS-1001003,990.0,USD,2026-08-10T08:00:00+00:00,completed,Service charge for invoice INV-1010170,INV-1010170,investigation_active,True,none,0.0,credit_card_visa
+TXN-1020171,CUS-1001053,29.0,USD,2026-07-23T02:00:00+00:00,completed,Service charge for invoice INV-1010171,INV-1010171,none,False,none,0.0,credit_card_visa
+TXN-1020172,CUS-1001058,49.0,USD,2026-09-10T00:00:00+00:00,completed,Service charge for invoice INV-1010172,INV-1010172,none,False,none,0.0,credit_card_visa
+TXN-1020173,CUS-1001033,29.0,USD,2026-07-16T10:00:00+00:00,completed,Service charge for invoice INV-1010173,INV-1010173,none,False,none,0.0,credit_card_visa
+TXN-1020174,CUS-1001057,29.0,USD,2026-08-01T03:00:00+00:00,completed,Service charge for invoice INV-1010174,INV-1010174,none,False,none,0.0,credit_card_visa
+TXN-1020175,CUS-1001046,199.0,USD,2026-07-28T10:00:00+00:00,completed,Service charge for invoice INV-1010175,INV-1010175,none,False,none,0.0,credit_card_visa
+TXN-1020176,CUS-1001007,49.0,USD,2026-09-13T09:00:00+00:00,completed,Service charge for invoice INV-1010176,INV-1010176,none,False,none,0.0,credit_card_visa
+TXN-1020177,CUS-1001010,49.0,USD,2026-08-20T08:00:00+00:00,completed,Service charge for invoice INV-1010177,INV-1010177,none,False,none,0.0,credit_card_visa
+TXN-1020178,CUS-1001003,199.0,USD,2026-07-23T23:00:00+00:00,completed,Service charge for invoice INV-1010178,INV-1010178,none,False,none,0.0,credit_card_visa
+TXN-1020179,CUS-1001056,199.0,USD,2026-08-31T03:00:00+00:00,completed,Service charge for invoice INV-1010179,INV-1010179,none,False,none,0.0,credit_card_visa
+TXN-1020180,CUS-1001044,49.0,USD,2026-07-26T22:00:00+00:00,completed,Service charge for invoice INV-1010180,INV-1010180,investigation_active,True,none,0.0,credit_card_visa
+TXN-40101,CUS-50000001,99.0,USD,2026-09-14T09:15:02Z,completed,Enterprise Monthly Core License - Base,INV-40101,none,False,none,0.0,credit_card_visa
+TXN-40102,CUS-50000001,99.0,USD,2026-09-14T09:15:05Z,completed,Enterprise Monthly Core License - Retry,INV-40101,none,False,none,0.0,credit_card_visa
+TXN-40103,CUS-50000002,49.0,USD,2026-09-08T10:00:00Z,completed,Professional Tier Monthly Subscription,INV-40102,none,False,none,0.0,credit_card_visa
+TXN-40104,CUS-50000002,49.0,USD,2026-09-10T14:30:00Z,completed,Advanced Analytics Add-on Pack,INV-40103,none,False,none,0.0,credit_card_visa
+TXN-40105,CUS-50000003,89.0,USD,2026-09-05T12:00:00Z,completed,Standard Developer Seat Renewal,INV-40104,none,False,none,0.0,credit_card_mastercard
+TXN-40106,CUS-50000004,120.0,USD,2026-09-12T08:00:00Z,completed,Pro Workspace Plan,INV-40105,none,False,none,0.0,credit_card_visa
+TXN-40107,CUS-50000004,120.0,USD,2026-09-12T08:00:04Z,completed,Pro Workspace Plan - Duplicate,INV-40105,investigation_active,True,none,0.0,credit_card_visa
+TXN-40108,CUS-50000005,150.0,USD,2026-09-10T11:00:00Z,completed,Team Subscription,INV-40106,none,False,none,0.0,credit_card_amex
+TXN-40109,CUS-50000005,150.0,USD,2026-09-10T11:00:03Z,completed,Team Subscription - Duplicate,INV-40106,none,False,partially_refunded,50.0,credit_card_amex
+TXN-40110,CUS-50000006,150.0,USD,2026-09-03T10:00:00Z,completed,Standard Developer Tooling License,INV-40110,none,False,none,0.0,credit_card_visa
+TXN-40111,CUS-50000007,199.0,USD,2026-08-01T14:00:00Z,completed,Annual Seat License Add-on,INV-40111,none,False,none,0.0,credit_card_mastercard
+TXN-40112,CUS-50000008,250.0,USD,2026-09-08T12:00:00Z,completed,Corporate Security Scanner License,INV-40112,investigation_active,True,none,0.0,credit_card_amex
+TXN-40113,CUS-50000009,180.0,USD,2026-08-06T10:00:00Z,completed,Database Optimization Suite,INV-40113,none,False,none,0.0,credit_card_visa
+TXN-40114,CUS-50000010,450.0,USD,2026-07-25T11:00:00Z,completed,Enterprise Architecture Consultation,INV-40114,none,False,none,0.0,credit_card_visa
+TXN-40120,CUS-50000016,249.0,USD,2026-09-08T10:00:00Z,completed,Industrial IoT Sensor Gateway Kit,INV-40120,none,False,none,0.0,credit_card_visa
+TXN-40121,CUS-50000017,320.0,USD,2026-09-07T14:00:00Z,completed,Developer Hardware Appliance v2,INV-40121,none,False,none,0.0,credit_card_mastercard
+TXN-40122,CUS-50000018,180.0,USD,2026-09-13T16:00:00Z,completed,Diagnostic Sensor Probe,INV-40122,none,False,none,0.0,credit_card_visa
+TXN-40123,CUS-50000019,350.0,USD,2026-09-10T15:00:00Z,completed,High-Performance Edge Computer,INV-40123,none,False,none,0.0,credit_card_visa
+TXN-40124,CUS-50000020,299.0,USD,2026-09-08T11:00:00Z,completed,Smart Hub Appliance,INV-40124,none,False,none,0.0,credit_card_visa
+TXN-40126,CUS-50000026,200.0,USD,2026-07-10T12:00:00Z,completed,Legacy Software Maintenance License,INV-40126,none,False,none,0.0,credit_card_visa
+TXN-40127,CUS-50000027,149.0,USD,2026-07-29T10:00:00Z,completed,Developer Suite Standalone,INV-40127,none,False,none,0.0,credit_card_mastercard
+TXN-40128,CUS-50000028,175.0,USD,2026-09-05T14:00:00Z,completed,Premium Analytics Tier,INV-40128,investigation_active,True,none,0.0,credit_card_visa
+TXN-40129,CUS-50000029,450.0,USD,2026-09-10T11:00:00Z,completed,Multi-Region Cloud Hosting,INV-40129,investigation_active,True,none,0.0,credit_card_visa

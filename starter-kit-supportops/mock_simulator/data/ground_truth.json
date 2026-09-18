@@ -1,0 +1,631 @@
+[
+  {
+    "task_id": "TASK-DEV-0001",
+    "classification": {
+      "category": "billing",
+      "issue": "duplicate_payment",
+      "severity": "medium"
+    },
+    "expected_resolution": "refund",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "issue_refund",
+      "params": {
+        "transaction_id": "TXN-40102",
+        "amount": 99.0,
+        "reason": "duplicate payment per DOC-1002"
+      }
+    },
+    "required_evidence": [
+      "DOC-1002",
+      "TXN-40101",
+      "TXN-40102"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0002",
+    "classification": {
+      "category": "billing",
+      "issue": "duplicate_payment",
+      "severity": "low"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1002",
+      "TXN-40103",
+      "TXN-40104"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0003",
+    "classification": {
+      "category": "billing",
+      "issue": "duplicate_payment",
+      "severity": "medium"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1002",
+      "TXN-40105"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0004",
+    "classification": {
+      "category": "billing",
+      "issue": "duplicate_payment",
+      "severity": "high"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40107",
+        "team": "billing_specialists",
+        "reason": "active chargeback hold on TXN-40107 prohibits automatic refund per DOC-1842"
+      }
+    },
+    "required_evidence": [
+      "DOC-1842",
+      "DOC-1002",
+      "TXN-40107"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0005",
+    "classification": {
+      "category": "billing",
+      "issue": "duplicate_payment",
+      "severity": "medium"
+    },
+    "expected_resolution": "refund",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "issue_refund",
+      "params": {
+        "transaction_id": "TXN-40109",
+        "amount": 100.0,
+        "reason": "remaining balance refund on duplicate payment per DOC-1002"
+      }
+    },
+    "required_evidence": [
+      "DOC-1002",
+      "TXN-40108",
+      "TXN-40109"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0006",
+    "classification": {
+      "category": "billing",
+      "issue": "refund_request",
+      "severity": "low"
+    },
+    "expected_resolution": "refund",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "issue_refund",
+      "params": {
+        "transaction_id": "TXN-40110",
+        "amount": 150.0,
+        "reason": "eligible refund within 30-day window per DOC-1001"
+      }
+    },
+    "required_evidence": [
+      "DOC-1001",
+      "TXN-40110"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0007",
+    "classification": {
+      "category": "billing",
+      "issue": "refund_request",
+      "severity": "low"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1001",
+      "TXN-40111"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0008",
+    "classification": {
+      "category": "billing",
+      "issue": "refund_request",
+      "severity": "high"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40112",
+        "team": "billing_specialists",
+        "reason": "active chargeback hold prohibits automatic refund on TXN-40112 per DOC-1842"
+      }
+    },
+    "required_evidence": [
+      "DOC-1842",
+      "DOC-1001",
+      "TXN-40112"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0009",
+    "classification": {
+      "category": "billing",
+      "issue": "refund_request",
+      "severity": "medium"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1001",
+      "DOC-0991",
+      "TXN-40113"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0010",
+    "classification": {
+      "category": "billing",
+      "issue": "refund_request",
+      "severity": "high"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1001",
+      "TXN-40114"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0011",
+    "classification": {
+      "category": "subscription",
+      "issue": "cancellation",
+      "severity": "low"
+    },
+    "expected_resolution": "refund",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "cancel_subscription",
+      "params": {
+        "customer_id": "CUS-50000011",
+        "subscription_id": "SUB-40115"
+      }
+    },
+    "required_evidence": [
+      "DOC-1003",
+      "SUB-40115"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0012",
+    "classification": {
+      "category": "subscription",
+      "issue": "cancellation",
+      "severity": "medium"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1003",
+      "SUB-40116"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0013",
+    "classification": {
+      "category": "subscription",
+      "issue": "cancellation",
+      "severity": "high"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40117",
+        "team": "retention_specialists",
+        "reason": "unresolved billing dispute on SUB-40117 requires escalation per DOC-1003"
+      }
+    },
+    "required_evidence": [
+      "DOC-1003",
+      "SUB-40117"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0014",
+    "classification": {
+      "category": "subscription",
+      "issue": "cancellation",
+      "severity": "medium"
+    },
+    "expected_resolution": "refund",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "cancel_subscription",
+      "params": {
+        "customer_id": "CUS-50000014",
+        "subscription_id": "SUB-40118"
+      }
+    },
+    "required_evidence": [
+      "DOC-1003",
+      "SUB-40118"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0015",
+    "classification": {
+      "category": "subscription",
+      "issue": "cancellation",
+      "severity": "high"
+    },
+    "expected_resolution": "request_info",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "request_verification",
+      "params": {
+        "customer_id": "CUS-50000015",
+        "verification_type": "identity"
+      }
+    },
+    "required_evidence": [
+      "DOC-1005",
+      "DOC-1003",
+      "CUS-50000015"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0016",
+    "classification": {
+      "category": "fulfillment",
+      "issue": "delivery_dispute",
+      "severity": "medium"
+    },
+    "expected_resolution": "refund",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "issue_refund",
+      "params": {
+        "transaction_id": "TXN-40120",
+        "amount": 249.0,
+        "reason": "lost in transit courier confirmed"
+      }
+    },
+    "required_evidence": [
+      "DOC-1004",
+      "DOC-2001",
+      "TXN-40120"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0017",
+    "classification": {
+      "category": "fulfillment",
+      "issue": "delivery_dispute",
+      "severity": "high"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40121",
+        "team": "logistics_investigations",
+        "reason": "signed courier proof of delivery on file for TXN-40121 requires investigation per DOC-1004"
+      }
+    },
+    "required_evidence": [
+      "DOC-1004",
+      "DOC-2001",
+      "TXN-40121"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0018",
+    "classification": {
+      "category": "fulfillment",
+      "issue": "delivery_dispute",
+      "severity": "low"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1004",
+      "TXN-40122"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0019",
+    "classification": {
+      "category": "fulfillment",
+      "issue": "delivery_dispute",
+      "severity": "high"
+    },
+    "expected_resolution": "request_info",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "request_verification",
+      "params": {
+        "customer_id": "CUS-50000019",
+        "verification_type": "identity"
+      }
+    },
+    "required_evidence": [
+      "DOC-1005",
+      "DOC-1004",
+      "CUS-50000019"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0020",
+    "classification": {
+      "category": "fulfillment",
+      "issue": "delivery_dispute",
+      "severity": "high"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40124",
+        "team": "logistics_investigations",
+        "reason": "signed courier proof of delivery on file for TXN-40124 requires investigation per DOC-1004"
+      }
+    },
+    "required_evidence": [
+      "DOC-1004",
+      "DOC-2001",
+      "TXN-40124"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0021",
+    "classification": {
+      "category": "security",
+      "issue": "fraud_suspicion",
+      "severity": "high"
+    },
+    "expected_resolution": "request_info",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "request_verification",
+      "params": {
+        "customer_id": "CUS-50000021",
+        "verification_type": "identity"
+      }
+    },
+    "required_evidence": [
+      "DOC-1005",
+      "CUS-50000021"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0022",
+    "classification": {
+      "category": "security",
+      "issue": "fraud_suspicion",
+      "severity": "low"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "DOC-1005",
+      "CUS-50000022"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0023",
+    "classification": {
+      "category": "security",
+      "issue": "fraud_suspicion",
+      "severity": "critical"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40123",
+        "team": "security_operations",
+        "reason": "confirmed foreign unauthorized access on account CUS-50000023 per DOC-1005"
+      }
+    },
+    "required_evidence": [
+      "DOC-1005",
+      "CUS-50000023"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0024",
+    "classification": {
+      "category": "security",
+      "issue": "fraud_suspicion",
+      "severity": "high"
+    },
+    "expected_resolution": "request_info",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "request_verification",
+      "params": {
+        "customer_id": "CUS-50000024",
+        "verification_type": "identity"
+      }
+    },
+    "required_evidence": [
+      "DOC-1005",
+      "CUS-50000024"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0025",
+    "classification": {
+      "category": "security",
+      "issue": "fraud_suspicion",
+      "severity": "high"
+    },
+    "expected_resolution": "request_info",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "request_verification",
+      "params": {
+        "customer_id": "CUS-50000025",
+        "verification_type": "identity"
+      }
+    },
+    "required_evidence": [
+      "DOC-1005",
+      "CUS-50000025"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0026",
+    "classification": {
+      "category": "billing",
+      "issue": "previous_agent_wrong",
+      "severity": "medium"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "CASE-40126",
+      "DOC-1001",
+      "TXN-40126"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0027",
+    "classification": {
+      "category": "billing",
+      "issue": "previous_agent_wrong",
+      "severity": "medium"
+    },
+    "expected_resolution": "deny",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "none",
+      "params": {}
+    },
+    "required_evidence": [
+      "CASE-40127",
+      "DOC-1001",
+      "DOC-0991",
+      "TXN-40127"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0028",
+    "classification": {
+      "category": "billing",
+      "issue": "previous_agent_wrong",
+      "severity": "high"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40128",
+        "team": "billing_specialists",
+        "reason": "prior ticket CASE-40128 applied invalid precedent; active chargeback on TXN-40128 requires escalation per DOC-1842"
+      }
+    },
+    "required_evidence": [
+      "CASE-40128",
+      "DOC-1842",
+      "TXN-40128"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0029",
+    "classification": {
+      "category": "billing",
+      "issue": "previous_agent_wrong",
+      "severity": "high"
+    },
+    "expected_resolution": "escalate",
+    "must_escalate": true,
+    "expected_action": {
+      "tool": "escalate_case",
+      "params": {
+        "case_id": "CASE-40129",
+        "team": "billing_specialists",
+        "reason": "prior ticket CASE-40129 correctly escalated; active investigation on TXN-40129 requires billing_specialists per DOC-1842"
+      }
+    },
+    "required_evidence": [
+      "CASE-40129",
+      "DOC-1842",
+      "TXN-40129"
+    ]
+  },
+  {
+    "task_id": "TASK-DEV-0030",
+    "classification": {
+      "category": "billing",
+      "issue": "previous_agent_wrong",
+      "severity": "high"
+    },
+    "expected_resolution": "request_info",
+    "must_escalate": false,
+    "expected_action": {
+      "tool": "request_verification",
+      "params": {
+        "customer_id": "CUS-50000030",
+        "verification_type": "identity"
+      }
+    },
+    "required_evidence": [
+      "CASE-40130",
+      "DOC-1005",
+      "CUS-50000030"
+    ]
+  }
+]

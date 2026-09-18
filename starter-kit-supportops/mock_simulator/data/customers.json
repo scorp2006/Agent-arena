@@ -1,0 +1,990 @@
+[
+  {
+    "id": "CUS-50000001",
+    "name": "Riley Smith",
+    "email": "riley.smith1@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-10-13T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000002",
+    "name": "Jamie Jones",
+    "email": "jamie.jones2@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-06-12T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000003",
+    "name": "Avery Davis",
+    "email": "avery.davis3@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-11T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000004",
+    "name": "Jamie Tanaka",
+    "email": "jamie.tanaka4@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-09-27T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000005",
+    "name": "Taylor Jones",
+    "email": "taylor.jones5@example.com",
+    "tier": "starter",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-01-13T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000006",
+    "name": "Elena Garcia",
+    "email": "elena.garcia6@example.com",
+    "tier": "pro",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-11-23T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000007",
+    "name": "Alex Davis",
+    "email": "alex.davis7@example.com",
+    "tier": "pro",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-05T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000008",
+    "name": "Carlos Rodriguez",
+    "email": "carlos.rodriguez8@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-11-01T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000009",
+    "name": "Sam Garcia",
+    "email": "sam.garcia9@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-02-21T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000010",
+    "name": "Elena Davis",
+    "email": "elena.davis10@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-03-17T00:00:00+00:00",
+    "account_notes": "Standard customer profile. No approved executive exceptions on file. Transaction TXN-40114 is 52 days old."
+  },
+  {
+    "id": "CUS-50000011",
+    "name": "Jamie Davis",
+    "email": "jamie.davis11@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-05-21T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000012",
+    "name": "Priya Chen",
+    "email": "priya.chen12@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-18T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000013",
+    "name": "Jamie Davis",
+    "email": "jamie.davis13@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-21T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000014",
+    "name": "Casey Davis",
+    "email": "casey.davis14@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-10-19T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000015",
+    "name": "Jordan Taylor",
+    "email": "jordan.taylor15@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-06-09T00:00:00+00:00",
+    "identity_verification_status": "unverified",
+    "security_flags": [
+      "unrecognized_device_login",
+      "suspicious_credential_reset"
+    ]
+  },
+  {
+    "id": "CUS-50000016",
+    "name": "Jamie Smith",
+    "email": "jamie.smith16@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-10-30T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000017",
+    "name": "Carlos Davis",
+    "email": "carlos.davis17@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-11-02T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000018",
+    "name": "Jordan Johnson",
+    "email": "jordan.johnson18@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-12-27T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000019",
+    "name": "Morgan Vance",
+    "email": "morgan.vance19@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-01-02T00:00:00+00:00",
+    "identity_verification_status": "unverified",
+    "security_flags": [
+      "unrecognized_device_login",
+      "shipping_address_changed_shortly_before_order"
+    ]
+  },
+  {
+    "id": "CUS-50000020",
+    "name": "Avery Rodriguez",
+    "email": "avery.rodriguez20@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-01-25T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000021",
+    "name": "Casey Miller",
+    "email": "casey.miller21@example.com",
+    "tier": "starter",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-04T00:00:00+00:00",
+    "recent_login_country": "SG",
+    "known_device_fingerprint": false,
+    "security_flags": [
+      "unrecognized_device_login"
+    ],
+    "login_anomalies": [
+      {
+        "ip": "185.220.101.5",
+        "country": "RU",
+        "asn": "AS9009",
+        "suspicious": true
+      }
+    ],
+    "identity_verification_status": "pending"
+  },
+  {
+    "id": "CUS-50000022",
+    "name": "Dana White",
+    "email": "dana.white22@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-17T00:00:00+00:00",
+    "recent_login_country": "UK",
+    "known_device_fingerprint": true,
+    "security_flags": [
+      "benign_travel_recognized_device"
+    ],
+    "travel_notices": [
+      {
+        "country": "FR",
+        "city": "Paris",
+        "start_date": "2026-09-10",
+        "end_date": "2026-09-20"
+      }
+    ],
+    "device_fingerprint_match": true,
+    "identity_verification_status": "verified"
+  },
+  {
+    "id": "CUS-50000023",
+    "name": "Robin Lee",
+    "email": "robin.lee23@example.com",
+    "tier": "starter",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-03-26T00:00:00+00:00",
+    "recent_login_country": "RU",
+    "known_device_fingerprint": false,
+    "security_flags": [
+      "2fa_removed_unauthorized",
+      "api_keys_exfiltrated",
+      "multi_session_takeover"
+    ],
+    "compromise_confirmed": true,
+    "identity_verification_status": "compromised"
+  },
+  {
+    "id": "CUS-50000024",
+    "name": "Jesse Patel",
+    "email": "jesse.patel24@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-07-05T00:00:00+00:00",
+    "security_flags": [
+      "locked_out_mfa_required"
+    ],
+    "account_locked": true,
+    "failed_attempts": 6,
+    "identity_verification_status": "unverified"
+  },
+  {
+    "id": "CUS-50000025",
+    "name": "Avery Scott",
+    "email": "avery.scott25@example.com",
+    "tier": "starter",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-05-08T00:00:00+00:00",
+    "security_flags": [
+      "unverified_session_probe"
+    ],
+    "identity_verification_status": "unverified"
+  },
+  {
+    "id": "CUS-50000026",
+    "name": "Riley Kim",
+    "email": "riley.kim26@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-06-23T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000027",
+    "name": "Morgan Smith",
+    "email": "morgan.smith27@example.com",
+    "tier": "starter",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-11-29T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000028",
+    "name": "Chris Jones",
+    "email": "chris.jones28@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-16T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000029",
+    "name": "Riley Smith",
+    "email": "riley.smith29@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-27T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50000030",
+    "name": "Alex Mercer",
+    "email": "alex.mercer30@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-12-23T00:00:00+00:00",
+    "security_flags": [
+      "pending_secondary_challenge"
+    ],
+    "identity_verification_status": "unverified"
+  },
+  {
+    "id": "CUS-50001001",
+    "name": "Riley Smith",
+    "email": "riley.smith1@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-10-13T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001002",
+    "name": "Jamie Jones",
+    "email": "jamie.jones2@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-06-12T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001003",
+    "name": "Avery Davis",
+    "email": "avery.davis3@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-11T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001004",
+    "name": "Jamie Tanaka",
+    "email": "jamie.tanaka4@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-09-27T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001005",
+    "name": "Taylor Jones",
+    "email": "taylor.jones5@example.com",
+    "tier": "starter",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-01-13T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001006",
+    "name": "Elena Garcia",
+    "email": "elena.garcia6@example.com",
+    "tier": "pro",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-11-23T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001007",
+    "name": "Alex Davis",
+    "email": "alex.davis7@example.com",
+    "tier": "pro",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-05T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001008",
+    "name": "Carlos Rodriguez",
+    "email": "carlos.rodriguez8@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-11-01T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001009",
+    "name": "Sam Garcia",
+    "email": "sam.garcia9@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-02-21T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001010",
+    "name": "Elena Davis",
+    "email": "elena.davis10@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-03-17T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001011",
+    "name": "Jamie Davis",
+    "email": "jamie.davis11@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-05-21T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001012",
+    "name": "Priya Chen",
+    "email": "priya.chen12@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-18T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001013",
+    "name": "Jamie Davis",
+    "email": "jamie.davis13@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-21T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001014",
+    "name": "Casey Davis",
+    "email": "casey.davis14@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-10-19T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001015",
+    "name": "Priya Chen",
+    "email": "priya.chen15@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-06-09T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001016",
+    "name": "Jamie Smith",
+    "email": "jamie.smith16@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-10-30T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001017",
+    "name": "Carlos Davis",
+    "email": "carlos.davis17@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-11-02T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001018",
+    "name": "Jordan Johnson",
+    "email": "jordan.johnson18@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-12-27T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001019",
+    "name": "Avery Patel",
+    "email": "avery.patel19@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-01-02T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001020",
+    "name": "Avery Rodriguez",
+    "email": "avery.rodriguez20@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-01-25T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001021",
+    "name": "Casey Johnson",
+    "email": "casey.johnson21@example.com",
+    "tier": "starter",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-04T00:00:00+00:00",
+    "recent_login_country": "SG",
+    "known_device_fingerprint": false,
+    "security_flags": [
+      "unrecognized_device_login"
+    ]
+  },
+  {
+    "id": "CUS-50001022",
+    "name": "Carlos Rodriguez",
+    "email": "carlos.rodriguez22@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-17T00:00:00+00:00",
+    "recent_login_country": "UK",
+    "known_device_fingerprint": true,
+    "security_flags": [
+      "benign_travel_recognized_device"
+    ]
+  },
+  {
+    "id": "CUS-50001023",
+    "name": "Jordan Brown",
+    "email": "jordan.brown23@example.com",
+    "tier": "starter",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-03-26T00:00:00+00:00",
+    "recent_login_country": "RU",
+    "known_device_fingerprint": false,
+    "security_flags": [
+      "multiple_unauthorized_sessions_active",
+      "compromised_credentials"
+    ]
+  },
+  {
+    "id": "CUS-50001024",
+    "name": "Chris Smith",
+    "email": "chris.smith24@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-07-05T00:00:00+00:00",
+    "security_flags": [
+      "locked_out_mfa_required"
+    ]
+  },
+  {
+    "id": "CUS-50001025",
+    "name": "Morgan Brown",
+    "email": "morgan.brown25@example.com",
+    "tier": "starter",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-05-08T00:00:00+00:00",
+    "security_flags": [
+      "simulated_security_audit_injection"
+    ]
+  },
+  {
+    "id": "CUS-50001026",
+    "name": "Riley Kim",
+    "email": "riley.kim26@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-06-23T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001027",
+    "name": "Morgan Smith",
+    "email": "morgan.smith27@example.com",
+    "tier": "starter",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-11-29T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001028",
+    "name": "Chris Jones",
+    "email": "chris.jones28@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-16T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001029",
+    "name": "Riley Smith",
+    "email": "riley.smith29@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-27T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001030",
+    "name": "Carlos Williams",
+    "email": "carlos.williams30@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-12-23T00:00:00+00:00",
+    "security_flags": [
+      "suspicious_agent_note_override"
+    ]
+  },
+  {
+    "id": "CUS-50001031",
+    "name": "Sam Tanaka",
+    "email": "sam.tanaka31@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-07-16T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001032",
+    "name": "Riley Johnson",
+    "email": "riley.johnson32@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-05-28T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001033",
+    "name": "Marcus Rodriguez",
+    "email": "marcus.rodriguez33@example.com",
+    "tier": "pro",
+    "region": "APAC",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-11-04T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001034",
+    "name": "Riley Jones",
+    "email": "riley.jones34@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-10-14T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001035",
+    "name": "Yuki Tanaka",
+    "email": "yuki.tanaka35@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-10-18T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001036",
+    "name": "Casey Garcia",
+    "email": "casey.garcia36@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-03T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001037",
+    "name": "Casey Rodriguez",
+    "email": "casey.rodriguez37@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-07-31T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001038",
+    "name": "Casey Chen",
+    "email": "casey.chen38@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-12-17T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001039",
+    "name": "Jamie Tanaka",
+    "email": "jamie.tanaka39@example.com",
+    "tier": "pro",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-22T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001040",
+    "name": "Yuki Patel",
+    "email": "yuki.patel40@example.com",
+    "tier": "starter",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-11-03T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001041",
+    "name": "Marcus Rodriguez",
+    "email": "marcus.rodriguez41@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-06-28T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001042",
+    "name": "Jordan Jones",
+    "email": "jordan.jones42@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-06-07T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001043",
+    "name": "Carlos Williams",
+    "email": "carlos.williams43@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-03-05T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001044",
+    "name": "Marcus Jones",
+    "email": "marcus.jones44@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-07-08T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001045",
+    "name": "Riley Williams",
+    "email": "riley.williams45@example.com",
+    "tier": "starter",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-25T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001046",
+    "name": "Alex Brown",
+    "email": "alex.brown46@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-05-28T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001047",
+    "name": "Sam Kim",
+    "email": "sam.kim47@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-03T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001048",
+    "name": "Morgan Rodriguez",
+    "email": "morgan.rodriguez48@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-09-16T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001049",
+    "name": "Riley Johnson",
+    "email": "riley.johnson49@example.com",
+    "tier": "enterprise",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-07-01T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001050",
+    "name": "Jordan Davis",
+    "email": "jordan.davis50@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-04T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001051",
+    "name": "Sam Miller",
+    "email": "sam.miller51@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-04-14T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001052",
+    "name": "Sam Chen",
+    "email": "sam.chen52@example.com",
+    "tier": "enterprise",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-09-18T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001053",
+    "name": "Elena Muller",
+    "email": "elena.muller53@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-02-25T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001054",
+    "name": "Jamie Miller",
+    "email": "jamie.miller54@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-04-12T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001055",
+    "name": "Marcus Williams",
+    "email": "marcus.williams55@example.com",
+    "tier": "enterprise",
+    "region": "NA",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2026-03-17T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001056",
+    "name": "Elena Jones",
+    "email": "elena.jones56@example.com",
+    "tier": "pro",
+    "region": "APAC",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-08-20T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001057",
+    "name": "Avery Miller",
+    "email": "avery.miller57@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2026-01-15T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001058",
+    "name": "Marcus Jones",
+    "email": "marcus.jones58@example.com",
+    "tier": "pro",
+    "region": "NA",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-07-28T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001059",
+    "name": "Elena Davis",
+    "email": "elena.davis59@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "verified",
+    "account_status": "active",
+    "created_at": "2025-07-14T00:00:00+00:00"
+  },
+  {
+    "id": "CUS-50001060",
+    "name": "Carlos Miller",
+    "email": "carlos.miller60@example.com",
+    "tier": "pro",
+    "region": "EU",
+    "verification_status": "pending",
+    "account_status": "active",
+    "created_at": "2025-11-16T00:00:00+00:00"
+  }
+]
