@@ -1,0 +1,31 @@
+# Secrets — NEVER commit
+.env
+**/.env
+*.token
+
+# Local run artifacts / logs / traces
+agent_decisions.jsonl
+**/agent_decisions.jsonl
+submission*_traces.jsonl
+run_full_log.txt
+*.log
+
+# Mock simulator database
+**/mock_arena.db
+*.db
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Tooling
+.playwright-mcp/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,103 @@
+<svg viewBox="0 0 1180 900" width="1180" height="900" xmlns="http://www.w3.org/2000/svg" font-family="'Inter','Segoe UI',system-ui,sans-serif">
+  <defs>
+    <marker id="arw" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arwG" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#22a565"/>
+    </marker>
+    <marker id="arwR" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e26767"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="900" fill="#ffffff"/>
+  <text x="590" y="46" text-anchor="middle" fill="#0f172a" font-size="28" font-weight="700">SupportOps Agent — Architecture</text>
+  <text x="590" y="72" text-anchor="middle" fill="#64748b" font-size="15">The model reasons, the code decides — an LLM understands the customer; a deterministic policy engine authorizes any action.</text>
+
+  <rect x="40" y="100" width="1100" height="62" rx="12" fill="#f8fafc"/>
+  <text x="62" y="127" fill="#0284c7" font-size="15" font-weight="700">1 · Input (untrusted)</text>
+  <text x="62" y="149" fill="#475569" font-size="13">task_id · customer_id · customer_message  —  we receive no transactions, no subscription, no policies. We must retrieve them.</text>
+
+  <rect x="40" y="184" width="520" height="94" rx="12" fill="#eff6ff"/>
+  <text x="62" y="211" fill="#2563eb" font-size="15" font-weight="700">2 · Triage  (LLM — understanding)</text>
+  <text x="62" y="234" fill="#334155" font-size="12.5">Read the message, classify intent: refund / cancel / fraud / policy.</text>
+  <text x="62" y="253" fill="#334155" font-size="12.5">The message is treated as data, never as commands.</text>
+  <text x="62" y="272" fill="#b91c1c" font-size="12">Prompt-injection resistant · system rules outrank user text</text>
+
+  <rect x="620" y="184" width="520" height="94" rx="12" fill="#effcf8"/>
+  <text x="642" y="211" fill="#0d9488" font-size="15" font-weight="700">3 · Retrieve  (read tools — grounding)</text>
+  <text x="642" y="234" fill="#334155" font-size="12.5">get_customer · get_transactions · get_subscription</text>
+  <text x="642" y="253" fill="#334155" font-size="12.5">get_previous_cases · search_knowledge · get_document</text>
+  <text x="642" y="272" fill="#0d9488" font-size="12">Every returned ID is logged as evidence (provenance)</text>
+
+  <rect x="40" y="300" width="1100" height="60" rx="12" fill="#fffbeb"/>
+  <text x="62" y="326" fill="#d97706" font-size="15" font-weight="700">4 · Select authoritative policy</text>
+  <text x="366" y="326" fill="#334155" font-size="13">When multiple policy versions exist, use the one with the latest updated_at — defeats the stale-policy trap.</text>
+  <text x="366" y="347" fill="#94a3b8" font-size="12">Handles the distractor · stale · contradiction · missing-info variants</text>
+
+  <rect x="40" y="384" width="1100" height="178" rx="14" fill="#fef9f0"/>
+  <text x="62" y="413" fill="#c2410c" font-size="16" font-weight="700">5 · Eligibility engine  (deterministic — the guardrail that mirrors the server)</text>
+  <text x="62" y="435" fill="#78716c" font-size="12.5">We re-run the company's exact rules on the retrieved facts before acting, so we never fire an action that gets rejected.</text>
+
+  <rect x="62" y="450" width="330" height="96" rx="10" fill="#ffffff"/>
+  <text x="80" y="473" fill="#b91c1c" font-size="13" font-weight="700">Refund — allowed only if</text>
+  <text x="80" y="493" fill="#334155" font-size="11.5">exists · not already refunded · amount ≤ total</text>
+  <text x="80" y="511" fill="#334155" font-size="11.5">no active chargeback or fraud hold</text>
+  <text x="80" y="529" fill="#334155" font-size="11.5">within the refund window (default 30 days)</text>
+
+  <rect x="410" y="450" width="330" height="96" rx="10" fill="#ffffff"/>
+  <text x="428" y="473" fill="#b91c1c" font-size="13" font-weight="700">Cancel — allowed only if</text>
+  <text x="428" y="493" fill="#334155" font-size="11.5">exists · belongs to this customer</text>
+  <text x="428" y="511" fill="#334155" font-size="11.5">not already cancelled · no open dispute</text>
+  <text x="428" y="529" fill="#334155" font-size="11.5">past lock-in, or has an approved exception</text>
+
+  <rect x="758" y="450" width="360" height="96" rx="10" fill="#ffffff"/>
+  <text x="776" y="473" fill="#b91c1c" font-size="13" font-weight="700">Escalate — valid only if</text>
+  <text x="776" y="493" fill="#334155" font-size="11.5">reason is ≥ 5 chars and cites a real</text>
+  <text x="776" y="511" fill="#334155" font-size="11.5">evidence ID we actually retrieved.</text>
+  <text x="776" y="529" fill="#334155" font-size="11.5">“Customer is angry” is rejected.</text>
+
+  <text x="590" y="594" text-anchor="middle" fill="#0f172a" font-size="15" font-weight="700">6 · Decision &amp; action</text>
+
+  <rect x="40" y="608" width="340" height="152" rx="12" fill="#f0fdf5"/>
+  <text x="62" y="634" fill="#16a34a" font-size="14" font-weight="700">Eligible → act</text>
+  <text x="62" y="658" fill="#334155" font-size="12.5">issue_refund ( )</text>
+  <text x="62" y="678" fill="#334155" font-size="12.5">cancel_subscription ( )</text>
+  <text x="62" y="700" fill="#475569" font-size="11.5">resolution = “refund”</text>
+  <text x="62" y="718" fill="#475569" font-size="11.5">Irreversible — done only when proven legal</text>
+  <text x="62" y="740" fill="#16a34a" font-size="11.5">Real world-state mutation</text>
+
+  <rect x="404" y="608" width="376" height="152" rx="12" fill="#fef4f4"/>
+  <text x="426" y="634" fill="#dc2626" font-size="14" font-weight="700">Not eligible / unclear → fail-safe</text>
+  <text x="426" y="658" fill="#334155" font-size="12.5">deny  (with a grounded explanation)</text>
+  <text x="426" y="678" fill="#334155" font-size="12.5">escalate_case  → human specialist</text>
+  <text x="426" y="698" fill="#334155" font-size="12.5">request_verification  → always safe</text>
+  <text x="426" y="722" fill="#991b1b" font-size="11.5">Prefer the reversible action over a</text>
+  <text x="426" y="740" fill="#991b1b" font-size="11.5">wrong irreversible one (abstain / hand to human)</text>
+
+  <rect x="804" y="608" width="336" height="152" rx="12" fill="#f2f2fd"/>
+  <text x="826" y="634" fill="#4f46e5" font-size="14" font-weight="700">Compose output</text>
+  <text x="826" y="658" fill="#334155" font-size="12">case_classification · decision</text>
+  <text x="826" y="677" fill="#334155" font-size="12">evidence[ ] — only real IDs</text>
+  <text x="826" y="696" fill="#334155" font-size="12">customer_response — cites IDs,</text>
+  <text x="826" y="713" fill="#334155" font-size="12">promises nothing we didn't execute</text>
+  <text x="826" y="736" fill="#6366f1" font-size="11.5">confidence — honestly calibrated</text>
+
+  <rect x="40" y="786" width="1100" height="84" rx="12" fill="#f1f5f9"/>
+  <text x="62" y="812" fill="#0f172a" font-size="15" font-weight="700">The server — final referee (cannot be bypassed)</text>
+  <text x="62" y="834" fill="#475569" font-size="12.5">Re-validates every action server-side. A rejected action has no effect and costs score. Because we pre-validate, our actions pass.</text>
+  <text x="62" y="855" fill="#94a3b8" font-size="12">Scores 7 dimensions — Task 35% · Policy 15% · Evidence F1 15% · Calibration 10% · Efficiency 10% · Communication 10% · Robustness 5%</text>
+
+  <line x1="590" y1="162" x2="300" y2="182" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arw)"/>
+  <line x1="590" y1="162" x2="880" y2="182" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arw)"/>
+  <line x1="300" y1="278" x2="300" y2="298" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arw)"/>
+  <line x1="880" y1="278" x2="880" y2="298" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arw)"/>
+  <line x1="590" y1="360" x2="590" y2="382" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arw)"/>
+  <line x1="300" y1="562" x2="210" y2="606" stroke="#22a565" stroke-width="1.8" marker-end="url(#arwG)"/>
+  <line x1="620" y1="562" x2="600" y2="606" stroke="#e26767" stroke-width="1.8" marker-end="url(#arwR)"/>
+  <line x1="210" y1="760" x2="470" y2="785" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#arw)"/>
+  <line x1="600" y1="760" x2="600" y2="785" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#arw)"/>
+  <line x1="972" y1="760" x2="800" y2="785" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#arw)"/>
+  <line x1="958" y1="682" x2="784" y2="682" stroke="#a5b4fc" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arw)"/>
+</svg>
